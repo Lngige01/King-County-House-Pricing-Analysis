@@ -1,4 +1,6 @@
 # **King County House Pricing Analysis - README**
+![PIC] (https://img.freepik.com/free-photo/finances-elements-wooden-cubes-arrangement_23-2148793814.jpg?w=900&t=st=1694342980~exp=1694343580~hmac=4d729f5e1cd911a352430ff74979978f4465b079a3690bec1265cfd672194b4e)
+
 ### Project Overview
 
 This project aims to assist a real estate agency in providing valuable advice to homeowners regarding the potential impact of home renovations on the estimated value of their properties. Homeowners often seek guidance on which renovations are likely to yield the highest returns on investment when selling their homes. By analyzing historical real estate data and employing predictive modeling techniques, this project aims to provide data-driven insights to address this business problem.
