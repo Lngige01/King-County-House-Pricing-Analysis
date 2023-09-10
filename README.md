@@ -1,5 +1,5 @@
 # **King County House Pricing Analysis - README**
-<img src="./images/housing.jpg" alt="Drawing" style="width: 900px;height:300px;float: left;"/>
+<img src="https://img.freepik.com/free-photo/finances-elements-wooden-cubes-arrangement_23-2148793814.jpg?w=900&t=st=1694343586~exp=1694344186~hmac=82a6c9d431ab39bc6e2a8c30f8be1a3e51b35676d42ae1a5c9ba374ac1cdd769" alt="Drawing" style="width: 1000px;height:500px;"/>
 
 ### Project Overview
 
@@ -12,23 +12,37 @@ The real estate agency faces a significant challenge in assisting homeowners wit
 
 ### The Data
 
-This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this assignment's GitHub repository. The description of the column names can be found in `column_names.md` in the same folder. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions about what the data means.
+This project uses the King County House Sales dataset, found in  `kc_house_data.csv`. The description are discussed below:
 
-It is up to you to decide what data from this dataset to use and how to use it. If you are feeling overwhelmed or behind, we recommend you **ignore** some or all of the following features:
+ Column Names and Descriptions for King County Data Set
+* `id` - Unique identifier for a house
+* `date` - Date house was sold
+* `price` - Sale price (prediction target)
+* `bedrooms` - Number of bedrooms
+* `bathrooms` - Number of bathrooms
+* `sqft_living` - Square footage of living space in the home
+* `sqft_lot` - Square footage of the lot
+* `floors` - Number of floors (levels) in house
+* `waterfront` - Whether the house is on a waterfront
+  * Includes Duwamish, Elliott Bay, Puget Sound, Lake Union, Ship Canal, Lake Washington, Lake Sammamish, other lake, and river/slough waterfronts
+* `view` - Quality of view from house
+  * Includes views of Mt. Rainier, Olympics, Cascades, Territorial, Seattle Skyline, Puget Sound, Lake Washington, Lake Sammamish, small lake / river / creek, and other
+* `condition` - How good the overall condition of the house is. Related to maintenance of house.
+  * See the [King County Assessor Website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r) for further explanation of each condition code
+* `grade` - Overall grade of the house. Related to the construction and design of the house.
+  * See the [King County Assessor Website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r) for further explanation of each building grade code
+* `sqft_above` - Square footage of house apart from basement
+* `sqft_basement` - Square footage of the basement
+* `yr_built` - Year when house was built
+* `yr_renovated` - Year when house was renovated
+* `zipcode` - ZIP Code used by the United States Postal Service
+* `lat` - Latitude coordinate
+* `long` - Longitude coordinate
+* `sqft_living15` - The square footage of interior housing living space for the nearest 15 neighbors
+* `sqft_lot15` - The square footage of the land lots of the nearest 15 neighbors
 
-* `date`
-* `view`
-* `sqft_above`
-* `sqft_basement`
-* `yr_renovated`
-* `zipcode`
-* `lat`
-* `long`
-* `sqft_living15`
-* `sqft_lot15`
 
-
-### Project Objective
+## Project Objective
 
 #### Develop a pricing model:
 The model should incorporate the factors such as living room square feet, number of bathrooms/bedrooms, grade ratings. This should help the agency to accurately price their properties.
@@ -46,7 +60,7 @@ Explore correlations and relationships between different features and the target
 
 
 
-#### Data Exploration & Understanding:
+## Data Exploration & Understanding:
 Import relevant libraries
 Load the data 
 Data Cleaning and analyzing the dataset to identify trends and correlations between renovations and property prices. Create visualizations to present insights effectively.
@@ -59,21 +73,21 @@ In the second model simple linear regression was introduced which certainly impr
 The final model, a multilinear regression, incorporated additional features to improve the predictive power. Evaluation metrics such as R-squared and F-statistic were used to assess the model's performance and significance. The model R2 is 61% and has a Mae of 119,189.00
 
 
-### Conclusion
+## Conclusion
 The final model - Multilinear Regression Model - identifies key factors influencing house prices and explains 61% of the price variations.
 
 Important factors affecting house prices include living room square footage, number of bedrooms, bathrooms,floors and property grade.
 
 
 
-#### Recommendations
+## Recommendations
 Focus on key features analyzed when setting house prices i.e  square footage, bathroom renovations, property maintenance, and modernization.
 
 Consider Multi-Story Design: explore the possibility of adding additional floors or converting existing space into additional stories.
 
 Consider each property's unique characteristics and consult with real estate professionals for personalized advice based on local market dynamics.
 
-See the full analysis in the [Jupyter Notebook](https://github.com/Lngige01/PHASE2_-GROUP-3_PROJECT/blob/main/Project_Phase2.ipynb) or review this [presentation](https://github.com/Lngige01/PHASE2_-GROUP-3_PROJECT/blob/main/Phase%202%20Project%20Presentation.pdf).
+See the full analysis in the [Jupyter Notebook](https://github.com/Lngige01/PHASE2_-GROUP-3_PROJECT/blob/main/Project_Phase2.ipynb) or review this [Presentation](https://github.com/Lngige01/PHASE2_-GROUP-3_PROJECT/blob/main/Phase%202%20Project%20Presentation.pdf).
 
 
 
