@@ -1,5 +1,5 @@
 # **King County House Pricing Analysis - README**
-![PIC] (https://img.freepik.com/free-photo/finances-elements-wooden-cubes-arrangement_23-2148793814.jpg?w=900&t=st=1694342980~exp=1694343580~hmac=4d729f5e1cd911a352430ff74979978f4465b079a3690bec1265cfd672194b4e)
+<img src="./images/housing.jpg" alt="Drawing" style="width: 900px;height:300px;float: left;"/>
 
 ### Project Overview
 
